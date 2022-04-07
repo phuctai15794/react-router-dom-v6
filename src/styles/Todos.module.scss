@@ -1,0 +1,30 @@
+.listTodo {
+    ul {
+        list-style: none;
+        padding-left: 0px;
+
+        .listTodoItem {
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eeeeee;
+
+            &:hover {
+                border-bottom-color: #0d6efd;
+            }
+
+            .listTodoTitle {
+                margin-bottom: 0.125rem;
+
+                .listTodoTextWithEdit {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .listTodoBtnAction {
+                cursor: pointer;
+            }
+        }
+    }
+}
